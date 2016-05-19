@@ -8,7 +8,6 @@ function collect_same_elements(collection_a, collection_b)
     var i = 0;
     var j = 0;
     var arr_fir = [];
-    var arr_fin = [];
     for(i = 0; i < collection_a.length; ++i)
     {
         for(j = 0; j < collection_b.length; ++j)
@@ -22,8 +21,7 @@ function collect_same_elements(collection_a, collection_b)
 
  //   alert("arr_fir:" + arr_fir);
     //a,e,f,d
-    arr_fin.push(arr_fir);
-	return arr_fin;
+	return arr_fir;
  //   alert("arr_fin:" + arr_fin)
     //在这里写入代码
 }
